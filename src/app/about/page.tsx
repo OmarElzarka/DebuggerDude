@@ -87,6 +87,10 @@ export default function AboutPage() {
                   <span className="w-5 h-5 flex items-center justify-center font-bold text-lg">📞</span>
                   <span className="font-semibold text-sm">{siteConfig.links.phone}</span>
                 </Link>
+                <Link href={`mailto:${siteConfig.links.email}`} className="flex items-center space-x-3 p-3 px-5 bg-card border border-border/50 rounded-full hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300">
+                  <Mail className="w-5 h-5 text-red-500" />
+                  <span className="font-semibold text-sm">Email</span>
+                </Link>
               </div>
             </div>
           </div>

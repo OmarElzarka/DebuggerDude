@@ -41,7 +41,7 @@ export function CommunitySection() {
             viewport={{ once: true }}
             className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6"
           >
-            A Global Engineering <span className="text-primary">Community</span>
+            We helped engineers <span className="text-primary">from:</span>
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
