@@ -71,14 +71,6 @@ export default function LearnPage() {
                         {playlist.description || `Explore our comprehensive collection of videos covering ${playlist.title}. Watch step-by-step visual explanations to deeply understand the core mechanics.`}
                       </p>
                     </div>
-
-                    <Link 
-                      href={`/watch/${playlist.videos[0]?.videoId}`} 
-                      className={cn(buttonVariants({ variant: "default" }), "mt-4 h-12 px-6 rounded-xl font-semibold bg-foreground text-background hover:bg-primary hover:text-white transition-all")}
-                    >
-                      Explore Playlist
-                      <ChevronRight className="ml-2 w-4 h-4" />
-                    </Link>
                   </div>
                 </div>
 
