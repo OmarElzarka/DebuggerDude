@@ -1,0 +1,525 @@
+{
+    "channel": {
+        "name": "Debugger Dude",
+        "handle": "@debuggerdude",
+        "playlistsCount": 10
+    },
+    "playlists": [
+        {
+            "playlistId": "PLxjqnmsb-1hZwgXqjSaYH8GrTKwHK-DpA",
+            "title": "شرح Data Structures بالأنيميشن",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/PhUP6LKbEM0/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1hZwgXqjSaYH8GrTKwHK-DpA",
+            "videoCount": 3,
+            "videos": [
+                {
+                    "videoId": "PhUP6LKbEM0",
+                    "title": "شرح Linked List بالأنيمشين",
+                    "url": "https://www.youtube.com/watch?v=PhUP6LKbEM0",
+                    "thumbnail": "https://i.ytimg.com/vi/PhUP6LKbEM0/maxresdefault.jpg",
+                    "publishedAt": "2026-03-27T21:17:41Z",
+                    "description": ""
+                },
+                {
+                    "videoId": "YX9kex5g1J4",
+                    "title": "شرح Stack بالأنيميشن",
+                    "url": "https://www.youtube.com/watch?v=YX9kex5g1J4",
+                    "thumbnail": "https://i.ytimg.com/vi/YX9kex5g1J4/maxresdefault.jpg",
+                    "publishedAt": "2026-03-27T21:43:40Z",
+                    "description": "Stack Data Structure"
+                },
+                {
+                    "videoId": "LUz3CqUXtu0",
+                    "title": "شرح Queue بالأنيميشن",
+                    "url": "https://www.youtube.com/watch?v=LUz3CqUXtu0",
+                    "thumbnail": "https://i.ytimg.com/vi/LUz3CqUXtu0/maxresdefault.jpg",
+                    "publishedAt": "2026-04-01T19:49:31Z",
+                    "description": "Queue Data Structure with Animation.\n\n#Data Structure\n#queue"
+                }
+            ]
+        },
+        {
+            "playlistId": "PLxjqnmsb-1havhAMhDP7PPEQgU7MNNPPb",
+            "title": "Backtracking",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/b9vuZU7SQjE/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1havhAMhDP7PPEQgU7MNNPPb",
+            "videoCount": 4,
+            "videos": [
+                {
+                    "videoId": "b9vuZU7SQjE",
+                    "title": "شرح LeetCode 17 - Letter Combinations of a Phone Number",
+                    "url": "https://www.youtube.com/watch?v=b9vuZU7SQjE",
+                    "thumbnail": "https://i.ytimg.com/vi/b9vuZU7SQjE/maxresdefault.jpg",
+                    "publishedAt": "2026-04-02T00:13:29Z",
+                    "description": "Letter Combinations of a Phone Number Using C++.\nBacktracking Approach.\nTime Complexity: O(n * 4^n)\nSpace Complexity: O(n * 4^n)"
+                },
+                {
+                    "videoId": "1tjC6WesOuo",
+                    "title": "شرح LeetCode 22 - Generate Parentheses",
+                    "url": "https://www.youtube.com/watch?v=1tjC6WesOuo",
+                    "thumbnail": "https://i.ytimg.com/vi/1tjC6WesOuo/maxresdefault.jpg",
+                    "publishedAt": "2026-04-01T15:29:56Z",
+                    "description": "Generate Parentheses Using C++.\nBacktracking Approach.\nTime Complexity: O(4^n / sqrt(n))\nSpace Complexity: O(n)"
+                },
+                {
+                    "videoId": "xSpFRxmF1BE",
+                    "title": "شرح LeetCode 39 - Combination Sum",
+                    "url": "https://www.youtube.com/watch?v=xSpFRxmF1BE",
+                    "thumbnail": "https://i.ytimg.com/vi/xSpFRxmF1BE/maxresdefault.jpg",
+                    "publishedAt": "2026-03-08T04:47:24Z",
+                    "description": "Combination Sum Using C++"
+                },
+                {
+                    "videoId": "HWr_ZHo6mfo",
+                    "title": "شرح بالانيمشين LeetCode 78 - Subsets",
+                    "url": "https://www.youtube.com/watch?v=HWr_ZHo6mfo",
+                    "thumbnail": "https://i.ytimg.com/vi/HWr_ZHo6mfo/maxresdefault.jpg",
+                    "publishedAt": "2026-03-07T11:43:18Z",
+                    "description": ""
+                }
+            ]
+        },
+        {
+            "playlistId": "PLxjqnmsb-1hamSRNjA1Zn9uxMJRv2V57b",
+            "title": "Tree Data Structures – Animated Explanations",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/mG_0McomiOo/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1hamSRNjA1Zn9uxMJRv2V57b",
+            "videoCount": 1,
+            "videos": [
+                {
+                    "videoId": "mG_0McomiOo",
+                    "title": "شرح Binary Tree Traversals بالأنيميشن",
+                    "url": "https://www.youtube.com/watch?v=mG_0McomiOo",
+                    "thumbnail": "https://i.ytimg.com/vi/mG_0McomiOo/maxresdefault.jpg",
+                    "publishedAt": "2026-01-21T13:21:09Z",
+                    "description": "A visual and animated explanation of Binary Tree Traversal.\nLearn Inorder, Preorder, Postorder and Level Order step by step through clear animations designed to make data structures easy to understand."
+                }
+            ]
+        },
+        {
+            "playlistId": "PLxjqnmsb-1haYkTyIScvftVIaF0axd49u",
+            "title": "Tree Problems",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/aeKVxmJ2sbk/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1haYkTyIScvftVIaF0axd49u",
+            "videoCount": 12,
+            "videos": [
+                {
+                    "videoId": "aeKVxmJ2sbk",
+                    "title": "شرح LeetCode 98 - Validate Binary Search Tree",
+                    "url": "https://www.youtube.com/watch?v=aeKVxmJ2sbk",
+                    "thumbnail": "https://i.ytimg.com/vi/aeKVxmJ2sbk/maxresdefault.jpg",
+                    "publishedAt": "2026-01-18T12:15:01Z",
+                    "description": "Validate Binary Search Tree Using C++\nTime Complexity: O(n)\nSpace Complexity: O(n)"
+                },
+                {
+                    "videoId": "rYdjttck_FE",
+                    "title": "شرح LeetCode 230 - Kth Smallest Element in a BST",
+                    "url": "https://www.youtube.com/watch?v=rYdjttck_FE",
+                    "thumbnail": "https://i.ytimg.com/vi/rYdjttck_FE/maxresdefault.jpg",
+                    "publishedAt": "2026-01-18T10:50:32Z",
+                    "description": "Kth Smallest Element in a BST Using C++\nTime Complexity: O(n)\nSpace Complexity: O(n)"
+                },
+                {
+                    "videoId": "YxFBSCm0riE",
+                    "title": "شرح LeetCode 1448 - Count Good Nodes in Binary Tree",
+                    "url": "https://www.youtube.com/watch?v=YxFBSCm0riE",
+                    "thumbnail": "https://i.ytimg.com/vi/YxFBSCm0riE/maxresdefault.jpg",
+                    "publishedAt": "2026-01-06T07:49:20Z",
+                    "description": "Count Good Nodes in Binary Tree Using C++\nTime complexity: O(n)\nSpace complexity: O(n)"
+                },
+                {
+                    "videoId": "JWW2Asnu9VU",
+                    "title": "شرح LeetCode 199 - Binary Tree Right Side View",
+                    "url": "https://www.youtube.com/watch?v=JWW2Asnu9VU",
+                    "thumbnail": "https://i.ytimg.com/vi/JWW2Asnu9VU/maxresdefault.jpg",
+                    "publishedAt": "2026-01-03T05:29:32Z",
+                    "description": "Binary Tree Right Side View Using C++\n\nBreadth First Search Approach \nTime Complexity: O(n)\nSpace Complexity: O(n) For the queue. \n\nDepth First Search Approach \nTime Complexity: O(n)\nSpace Complexity: O(n) For the Recursion Stack."
+                },
+                {
+                    "videoId": "GBl4c6f_ruw",
+                    "title": "شرح LeetCode 235 - Lowest Common Ancestor in Binary Search Tree",
+                    "url": "https://www.youtube.com/watch?v=GBl4c6f_ruw",
+                    "thumbnail": "https://i.ytimg.com/vi/GBl4c6f_ruw/maxresdefault.jpg",
+                    "publishedAt": "2026-01-02T05:18:56Z",
+                    "description": "Lowest Common Ancestor in Binary Search Tree Using C++\n-----------------------------------------------\nRecursion Approach \nTime Complexity: O(h)\nSpace Complexity: O(h)\n-----------------------------------------------\nIterative Approach\nTime Complexity: O(h)\nSpace Complexity: O(1)"
+                },
+                {
+                    "videoId": "Fm4GgzWViXM",
+                    "title": "شرح LeetCode 572 - Subtree of Another Tree",
+                    "url": "https://www.youtube.com/watch?v=Fm4GgzWViXM",
+                    "thumbnail": "https://i.ytimg.com/vi/Fm4GgzWViXM/maxresdefault.jpg",
+                    "publishedAt": "2025-12-30T23:50:53Z",
+                    "description": "Subtree of Another Tree Using C++\n\nTime Complexity = O(N × M) because for each of the N nodes in root, we might check all M nodes in subRoot using isSameTree. Worst case happens when many nodes match and we compare the full subtree each time.\n(it can be reduced to O(N + M)) Try To Do IT !  \n\nSpace complexity: O(N + M)"
+                },
+                {
+                    "videoId": "wq7n7JM5KTQ",
+                    "title": "شرح LeetCode 100 - Same Tree",
+                    "url": "https://www.youtube.com/watch?v=wq7n7JM5KTQ",
+                    "thumbnail": "https://i.ytimg.com/vi/wq7n7JM5KTQ/maxresdefault.jpg",
+                    "publishedAt": "2025-12-30T07:06:42Z",
+                    "description": "Same Tree Using C++\nTime Complexity : O(n)\nSpace Complexity : O(n)"
+                },
+                {
+                    "videoId": "lRMR3m2ITcs",
+                    "title": "شرح LeetCode 110 - balanced binary tree",
+                    "url": "https://www.youtube.com/watch?v=lRMR3m2ITcs",
+                    "thumbnail": "https://i.ytimg.com/vi/lRMR3m2ITcs/maxresdefault.jpg",
+                    "publishedAt": "2025-12-28T05:16:55Z",
+                    "description": "balanced binary tree Using C++\nBrute Force Approach\n--------------------------------------------------\nTime complexity: O(n**2) \nSpace complexity: O(n)\n--------------------------------------------------\nOptimal Approach\nTime complexity: O(n)\nSpace complexity: O(n)"
+                },
+                {
+                    "videoId": "B_4CJJa1Gt4",
+                    "title": "شرح LeetCode 543 - Diameter of Binary Tree",
+                    "url": "https://www.youtube.com/watch?v=B_4CJJa1Gt4",
+                    "thumbnail": "https://i.ytimg.com/vi/B_4CJJa1Gt4/maxresdefault.jpg",
+                    "publishedAt": "2025-12-26T15:49:24Z",
+                    "description": "Diameter of Binary Tree Using C++\nTime complexity: O(n)\nSpace complexity: O(h)"
+                },
+                {
+                    "videoId": "d7IDP9fOY04",
+                    "title": "شرح LeetCode 106 - Maximum Depth of Binary Tree",
+                    "url": "https://www.youtube.com/watch?v=d7IDP9fOY04",
+                    "thumbnail": "https://i.ytimg.com/vi/d7IDP9fOY04/maxresdefault.jpg",
+                    "publishedAt": "2025-12-25T14:15:53Z",
+                    "description": "Maximum Depth of Binary Tree Using C++\nTime complexity: O(n)\nSpace complexity: O(h)"
+                },
+                {
+                    "videoId": "bNC8Upj7n_k",
+                    "title": "شرح ازاي تحل مشاكل الBinary Tree - تطبيق عملي علي مشكلة Invert Binary Tree",
+                    "url": "https://www.youtube.com/watch?v=bNC8Upj7n_k",
+                    "thumbnail": "https://i.ytimg.com/vi/bNC8Upj7n_k/maxresdefault.jpg",
+                    "publishedAt": "2025-12-25T11:41:56Z",
+                    "description": "Invert Binary Tree Using C++\nLeetCode 226.\nTime Complexity : O(n)\nSpace Complexity : O(n) For Recursion Stack"
+                },
+                {
+                    "videoId": "PUHHBNVOkAU",
+                    "title": "شرح بالتفصيل LeetCode 94 - Binary Tree Inorder Traversal",
+                    "url": "https://www.youtube.com/watch?v=PUHHBNVOkAU",
+                    "thumbnail": "https://i.ytimg.com/vi/PUHHBNVOkAU/maxresdefault.jpg",
+                    "publishedAt": "2025-12-22T07:15:56Z",
+                    "description": "Binary Tree Inorder Traversal Using C++\n\nRecursion Approach:\nTime Complexity: O(n)\nSpace Complexity:  O(n)"
+                }
+            ]
+        },
+        {
+            "playlistId": "PLxjqnmsb-1hbOHniK-KA9-rEWPFxV7jQd",
+            "title": "LinkedList Problems",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/0t93mu4JdS4/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1hbOHniK-KA9-rEWPFxV7jQd",
+            "videoCount": 10,
+            "videos": [
+                {
+                    "videoId": "0t93mu4JdS4",
+                    "title": "شرح LeetCode 23 - Merge k Sorted Lists",
+                    "url": "https://www.youtube.com/watch?v=0t93mu4JdS4",
+                    "thumbnail": "https://i.ytimg.com/vi/0t93mu4JdS4/maxresdefault.jpg",
+                    "publishedAt": "2025-11-10T11:04:37Z",
+                    "description": "Merge k Sorted Lists Using C++\nMerge Using Divide And Conquer (Iteration) \n-----------------------------------------------\nTime Complexity : O(n Log k)\nSpace Complexity : O(k)\n-----------------------------------------------\nWhere (k) is the number of lists and (n) is the cumulative number of nodes in all (k) lists."
+                },
+                {
+                    "videoId": "RkuiRDWNhYg",
+                    "title": "شرح LeetCode 146 - LRU Cache",
+                    "url": "https://www.youtube.com/watch?v=RkuiRDWNhYg",
+                    "thumbnail": "https://i.ytimg.com/vi/RkuiRDWNhYg/maxresdefault.jpg",
+                    "publishedAt": "2025-11-06T05:14:55Z",
+                    "description": "LRU Cache Design Problem Using C++\nHash Map + Doubly Linked List\nTime complexity : O(1)\nTime complexity : O(n)"
+                },
+                {
+                    "videoId": "MqD2cLzcFH0",
+                    "title": "شرح LeetCode 138 - Copy List with Random Pointer",
+                    "url": "https://www.youtube.com/watch?v=MqD2cLzcFH0",
+                    "thumbnail": "https://i.ytimg.com/vi/MqD2cLzcFH0/maxresdefault.jpg",
+                    "publishedAt": "2025-11-03T08:26:08Z",
+                    "description": "Copy List with Random Pointer Using C++\n---------------------------------\nHash Table Method \nTime Complexity : O(n)\nSpace Complexity : O(n)\n---------------------------------\nSpace Optimized Method\nTime Complexity : O(n)\nSpace Complexity : O(1)"
+                },
+                {
+                    "videoId": "wgCBv_mp8jw",
+                    "title": "شرح LeetCode 287 - Find the Duplicate Number",
+                    "url": "https://www.youtube.com/watch?v=wgCBv_mp8jw",
+                    "thumbnail": "https://i.ytimg.com/vi/wgCBv_mp8jw/maxresdefault.jpg",
+                    "publishedAt": "2025-10-31T09:27:02Z",
+                    "description": "Find the Duplicate Number Using C++\n----------------------------------------\nFloyd's Cycle Detection - Tortoise and Hare - Slow and Fast Pointers Method\nTime Complexity : O(n)\nSpace Complexity : O(1)\n------------------------------------------\nNegative Marker Algorithm\nTime Complexity : O(n)\nSpace Complexity : O(1)"
+                },
+                {
+                    "videoId": "fUTr4daoknA",
+                    "title": "شرح LeetCode 2 - Add Two Numbers",
+                    "url": "https://www.youtube.com/watch?v=fUTr4daoknA",
+                    "thumbnail": "https://i.ytimg.com/vi/fUTr4daoknA/maxresdefault.jpg",
+                    "publishedAt": "2025-10-30T06:48:52Z",
+                    "description": "Add Two Numbers Using C++\nTime Complexity : O(max(m,n))\nSpace Complexity : O(max(m,n)) for the output list (Without Extra space)\nWhere M is the length of L1 and N is the Length of L2."
+                },
+                {
+                    "videoId": "WSKGM_oA1Do",
+                    "title": "شرح LeetCode 19 - Remove Nth Node From End of List",
+                    "url": "https://www.youtube.com/watch?v=WSKGM_oA1Do",
+                    "thumbnail": "https://i.ytimg.com/vi/WSKGM_oA1Do/maxresdefault.jpg",
+                    "publishedAt": "2025-10-29T05:18:08Z",
+                    "description": "Remove Nth Node From End of List Using C++\nTwo Pointers Technique\nTime Complexity : O(n)\nSpace Complexity : O(1)"
+                },
+                {
+                    "videoId": "VMDAli126kw",
+                    "title": "شرح LeetCode 143 - Reorder List",
+                    "url": "https://www.youtube.com/watch?v=VMDAli126kw",
+                    "thumbnail": "https://i.ytimg.com/vi/VMDAli126kw/maxresdefault.jpg",
+                    "publishedAt": "2025-10-27T01:57:49Z",
+                    "description": "Reorder List Using C++\nI used the slow and fast pointer (tortoise and hare) approach to find the middle node, then reversed the second half of the list and merged the two halves.\nTime Complexity: O(N)\nSpace Complexity: O(1)"
+                },
+                {
+                    "videoId": "-gsxAsngono",
+                    "title": "شرح LeetCode 141 - Linked List Cycle",
+                    "url": "https://www.youtube.com/watch?v=-gsxAsngono",
+                    "thumbnail": "https://i.ytimg.com/vi/-gsxAsngono/maxresdefault.jpg",
+                    "publishedAt": "2025-10-25T23:46:19Z",
+                    "description": "Linked List Cycle Using C++\nslow and fast pointer / Floyd's Cycle Algorithm / tortoise and hare algorithm\nTime complexity : O(n)\nSpace complexity : O(1)"
+                },
+                {
+                    "videoId": "M0vr_4sEUY0",
+                    "title": "شرح LeetCode 21 - Merge Two Sorted Lists",
+                    "url": "https://www.youtube.com/watch?v=M0vr_4sEUY0",
+                    "thumbnail": "https://i.ytimg.com/vi/M0vr_4sEUY0/maxresdefault.jpg",
+                    "publishedAt": "2025-10-21T23:53:54Z",
+                    "description": "Merge Two Sorted Lists Using C++ \n(Dummy Node Pattern)\nTime Complexity : O(n+m)\nSpace Complexity : O(1)"
+                },
+                {
+                    "videoId": "gC2M3g14f9Y",
+                    "title": "شرح LeetCode 206 - Reverse Linked List",
+                    "url": "https://www.youtube.com/watch?v=gC2M3g14f9Y",
+                    "thumbnail": "https://i.ytimg.com/vi/gC2M3g14f9Y/maxresdefault.jpg",
+                    "publishedAt": "2025-10-20T05:53:34Z",
+                    "description": "Reverse Linked List Using C++\niterative method.\nTime Complexity : O(n)\nSpace Complexity : O(1)"
+                }
+            ]
+        },
+        {
+            "playlistId": "PLxjqnmsb-1hY6vZKBIsZjlbfTsKhfhd5_",
+            "title": "Sliding Window Problems",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/GVYVttsNT1Q/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1hY6vZKBIsZjlbfTsKhfhd5_",
+            "videoCount": 6,
+            "videos": [
+                {
+                    "videoId": "GVYVttsNT1Q",
+                    "title": "شرح LeetCode 239 - Sliding Window Maximum",
+                    "url": "https://www.youtube.com/watch?v=GVYVttsNT1Q",
+                    "thumbnail": "https://i.ytimg.com/vi/GVYVttsNT1Q/maxresdefault.jpg",
+                    "publishedAt": "2025-10-19T21:50:09Z",
+                    "description": "Sliding Window Maximum Using C++\nSliding Window + deque / dick\nTime Complexity : O(n)\nSpace Complexity : O(k)"
+                },
+                {
+                    "videoId": "geKI-TCeuzg",
+                    "title": "شرح LeetCode 76 - Minimum Window Substring",
+                    "url": "https://www.youtube.com/watch?v=geKI-TCeuzg",
+                    "thumbnail": "https://i.ytimg.com/vi/geKI-TCeuzg/maxresdefault.jpg",
+                    "publishedAt": "2025-10-08T16:34:02Z",
+                    "description": "Minimum Window Substring Using C++\nSliding Window Technique.\nTime Complexity : O(n + m) \nSpace Complexity : O(n + m) \nWhere n is the length of the string s, and m is the total number of unique characters present in both t and s."
+                },
+                {
+                    "videoId": "o92cH9nBlxw",
+                    "title": "شرح LeetCode 567 -  Permutation in String",
+                    "url": "https://www.youtube.com/watch?v=o92cH9nBlxw",
+                    "thumbnail": "https://i.ytimg.com/vi/o92cH9nBlxw/maxresdefault.jpg",
+                    "publishedAt": "2025-10-05T01:04:53Z",
+                    "description": "Permutation in String Using C++\nSliding Window Technique\nTime Complexity : O(n)\nSpace Complexity : O(1)"
+                },
+                {
+                    "videoId": "2Hun4MnRnRk",
+                    "title": "شرح LeetCode 121 -  Best Time to Buy and Sell Stock",
+                    "url": "https://www.youtube.com/watch?v=2Hun4MnRnRk",
+                    "thumbnail": "https://i.ytimg.com/vi/2Hun4MnRnRk/maxresdefault.jpg",
+                    "publishedAt": "2025-10-03T15:11:03Z",
+                    "description": "Best Time to Buy and Sell Stock Using C++\nSliding Window Technique.\nGreedy One Pass. \nTime complexity : O(n)\nSpace complexity : O(1)"
+                },
+                {
+                    "videoId": "Lk1LT3iRgF0",
+                    "title": "شرح LeetCode 424 - Longest Repeating Character Replacement",
+                    "url": "https://www.youtube.com/watch?v=Lk1LT3iRgF0",
+                    "thumbnail": "https://i.ytimg.com/vi/Lk1LT3iRgF0/maxresdefault.jpg",
+                    "publishedAt": "2025-10-02T16:55:50Z",
+                    "description": "Longest Repeating Character Replacement Using C++\nSliding Window Technique.\nTime Complexity : O(n)\nSpace Complexity : O(1)"
+                },
+                {
+                    "videoId": "qlXl2qTvEc0",
+                    "title": "شرح LeetCode 3 - Longest Substring Without Repeating Characters",
+                    "url": "https://www.youtube.com/watch?v=qlXl2qTvEc0",
+                    "thumbnail": "https://i.ytimg.com/vi/qlXl2qTvEc0/maxresdefault.jpg",
+                    "publishedAt": "2025-09-30T23:07:07Z",
+                    "description": "Longest Substring Without Repeating Characters Using C++.\nSliding Window Technique.\nTime complexity : O(n)\nSpace complexity : O(1)"
+                }
+            ]
+        },
+        {
+            "playlistId": "PLxjqnmsb-1hY1dw--z_1NAA6FCV99k_dB",
+            "title": "Binary Search Problems",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/-xevtKx1Xaw/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1hY1dw--z_1NAA6FCV99k_dB",
+            "videoCount": 5,
+            "videos": [
+                {
+                    "videoId": "-xevtKx1Xaw",
+                    "title": "شرح LeetCode 33 -  Search in Rotated Sorted Array",
+                    "url": "https://www.youtube.com/watch?v=-xevtKx1Xaw",
+                    "thumbnail": "https://i.ytimg.com/vi/-xevtKx1Xaw/maxresdefault.jpg",
+                    "publishedAt": "2025-09-12T00:27:18Z",
+                    "description": "Search in Rotated Sorted Array using C++.\nBinary Search Algorithm."
+                },
+                {
+                    "videoId": "xjxQCRT3o8Q",
+                    "title": "شرح LeetCode 153 - Find Minimum in Rotated Sorted Array",
+                    "url": "https://www.youtube.com/watch?v=xjxQCRT3o8Q",
+                    "thumbnail": "https://i.ytimg.com/vi/xjxQCRT3o8Q/maxresdefault.jpg",
+                    "publishedAt": "2025-09-10T22:01:20Z",
+                    "description": "Find Minimum in Rotated Sorted Array Using C++.\nBinary Search Algorithm."
+                },
+                {
+                    "videoId": "dFKtKETzHmE",
+                    "title": "شرح LeetCode 875 -  Koko Eating Bananas",
+                    "url": "https://www.youtube.com/watch?v=dFKtKETzHmE",
+                    "thumbnail": "https://i.ytimg.com/vi/dFKtKETzHmE/maxresdefault.jpg",
+                    "publishedAt": "2025-09-09T15:00:18Z",
+                    "description": "Koko Eating Bananas Using C++\nBinary Search Algorithm.\nTime complexity:  O(n ∗ log m)\nSpace complexity: O(1)\n\nWhere n is the length of the input array piles and m is the maximum number of bananas in a pile."
+                },
+                {
+                    "videoId": "d_iPNFwLg_E",
+                    "title": "شرح LeetCode 74 -  Search a 2D Matrix",
+                    "url": "https://www.youtube.com/watch?v=d_iPNFwLg_E",
+                    "thumbnail": "https://i.ytimg.com/vi/d_iPNFwLg_E/maxresdefault.jpg",
+                    "publishedAt": "2025-09-08T15:06:41Z",
+                    "description": "Search a 2D Matrix Using C++. \nBinary Search Algorithm."
+                },
+                {
+                    "videoId": "XipgDYqzVqU",
+                    "title": "شرح LeetCode 704 - Binary Search",
+                    "url": "https://www.youtube.com/watch?v=XipgDYqzVqU",
+                    "thumbnail": "https://i.ytimg.com/vi/XipgDYqzVqU/maxresdefault.jpg",
+                    "publishedAt": "2025-09-08T13:13:23Z",
+                    "description": "Binary Search Using C++"
+                }
+            ]
+        },
+        {
+            "playlistId": "PLxjqnmsb-1hYfLr6eB1AxDQHlu8eCUSI_",
+            "title": "Hashing Problems",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/z4pvCFxG8yY/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1hYfLr6eB1AxDQHlu8eCUSI_",
+            "videoCount": 1,
+            "videos": [
+                {
+                    "videoId": "z4pvCFxG8yY",
+                    "title": "LONGEST CONSECUTIVE SEQUENCE شرح بالعربي",
+                    "url": "https://www.youtube.com/watch?v=z4pvCFxG8yY",
+                    "thumbnail": "https://i.ytimg.com/vi/z4pvCFxG8yY/maxresdefault.jpg",
+                    "publishedAt": "2025-08-16T19:03:11Z",
+                    "description": "شرح مشكلة LONGEST CONSECUTIVE SEQUENCE بلغة C++"
+                }
+            ]
+        },
+        {
+            "playlistId": "PLxjqnmsb-1hZDnSvMr68503NxEh9r5Sbd",
+            "title": "Stack Problems",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/rTmk96TRRAE/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1hZDnSvMr68503NxEh9r5Sbd",
+            "videoCount": 6,
+            "videos": [
+                {
+                    "videoId": "rTmk96TRRAE",
+                    "title": "شرح LeetCode 84 - Largest Rectangle in Histogram",
+                    "url": "https://www.youtube.com/watch?v=rTmk96TRRAE",
+                    "thumbnail": "https://i.ytimg.com/vi/rTmk96TRRAE/maxresdefault.jpg",
+                    "publishedAt": "2025-09-07T22:04:59Z",
+                    "description": "Largest Rectangle in Histogram Using C++, LeetCode 84.\nStack Method. \nTime Complexity : O(N)\nSpace Complexity : O(N)"
+                },
+                {
+                    "videoId": "FfATPq0SPq8",
+                    "title": "شرح LeetCode 853 - Car Fleet",
+                    "url": "https://www.youtube.com/watch?v=FfATPq0SPq8",
+                    "thumbnail": "https://i.ytimg.com/vi/FfATPq0SPq8/maxresdefault.jpg",
+                    "publishedAt": "2025-09-06T16:50:08Z",
+                    "description": "Car Fleet Using C++.\nstack Method.\nTime Complexity : O(nlogn)\nSpace Complexity : O(n)"
+                },
+                {
+                    "videoId": "sggt9YpAMOY",
+                    "title": "شرح LeetCode 739 - Monotonic Stack - Daily Temperatures",
+                    "url": "https://www.youtube.com/watch?v=sggt9YpAMOY",
+                    "thumbnail": "https://i.ytimg.com/vi/sggt9YpAMOY/maxresdefault.jpg",
+                    "publishedAt": "2025-09-04T23:13:43Z",
+                    "description": "Daily Temperatures Using c++ , Monotonic Stack Method. \nLeetCode 739"
+                },
+                {
+                    "videoId": "yP33IVmAT-M",
+                    "title": "شرح LeetCode 150 -  Evaluate Reverse Polish Notation",
+                    "url": "https://www.youtube.com/watch?v=yP33IVmAT-M",
+                    "thumbnail": "https://i.ytimg.com/vi/yP33IVmAT-M/maxresdefault.jpg",
+                    "publishedAt": "2025-09-03T14:04:49Z",
+                    "description": "Evaluate Reverse Polish Notation Using C++. \nStack Method.\nTime Complexity: O(n)\nSpace Complexity: O(n)"
+                },
+                {
+                    "videoId": "pD6u-jWb2Qk",
+                    "title": "شرح LeetCode 155 - Min Stack",
+                    "url": "https://www.youtube.com/watch?v=pD6u-jWb2Qk",
+                    "thumbnail": "https://i.ytimg.com/vi/pD6u-jWb2Qk/maxresdefault.jpg",
+                    "publishedAt": "2025-09-02T15:34:20Z",
+                    "description": "Min Stack Using C++ , Two Stacks Method , LeetCode 155 - Problem solving"
+                },
+                {
+                    "videoId": "aSobCThdkks",
+                    "title": "شرح LeetCode 20 -  Valid Parentheses",
+                    "url": "https://www.youtube.com/watch?v=aSobCThdkks",
+                    "thumbnail": "https://i.ytimg.com/vi/aSobCThdkks/maxresdefault.jpg",
+                    "publishedAt": "2025-08-31T17:35:50Z",
+                    "description": "Valid Parentheses LeetCode Problem Using C++. Stack Method"
+                }
+            ]
+        },
+        {
+            "playlistId": "PLxjqnmsb-1hZAfAnLYn-5Jgo8zOkB4xPk",
+            "title": "Two Pointers Problems",
+            "description": "",
+            "thumbnail": "https://i.ytimg.com/vi/KwJ16Si5_TQ/maxresdefault.jpg",
+            "url": "https://www.youtube.com/playlist?list=PLxjqnmsb-1hZAfAnLYn-5Jgo8zOkB4xPk",
+            "videoCount": 4,
+            "videos": [
+                {
+                    "videoId": "KwJ16Si5_TQ",
+                    "title": "شرح  LeetCode 42 -  Trapping Rain Water",
+                    "url": "https://www.youtube.com/watch?v=KwJ16Si5_TQ",
+                    "thumbnail": "https://i.ytimg.com/vi/KwJ16Si5_TQ/maxresdefault.jpg",
+                    "publishedAt": "2025-08-30T14:59:12Z",
+                    "description": "Trapping Rain Water Using C++ - LeetCode 42 - providing a lot of information and examples to make it easy to understand"
+                },
+                {
+                    "videoId": "5IduiE4HXtY",
+                    "title": "شرح 11 Container With Most Water - LeetCode",
+                    "url": "https://www.youtube.com/watch?v=5IduiE4HXtY",
+                    "thumbnail": "https://i.ytimg.com/vi/5IduiE4HXtY/maxresdefault.jpg",
+                    "publishedAt": "2025-08-29T14:07:34Z",
+                    "description": "Container With Most Water using C++ - two pointers - leetcode"
+                },
+                {
+                    "videoId": "zZARwA1TBJE",
+                    "title": "LeetCode 15 - 3 sum شرح",
+                    "url": "https://www.youtube.com/watch?v=zZARwA1TBJE",
+                    "thumbnail": "https://i.ytimg.com/vi/zZARwA1TBJE/maxresdefault.jpg",
+                    "publishedAt": "2025-08-26T13:19:02Z",
+                    "description": "LeetCode - 3 sum - 3Sum"
+                },
+                {
+                    "videoId": "PrxUtzDf27c",
+                    "title": "167. Two Sum II - Input Array Is Sorted شرح",
+                    "url": "https://www.youtube.com/watch?v=PrxUtzDf27c",
+                    "thumbnail": "https://i.ytimg.com/vi/PrxUtzDf27c/maxresdefault.jpg",
+                    "publishedAt": "2025-08-24T17:13:46Z",
+                    "description": "leetcode  -  c++  - 167. Two Sum II - Input Array Is Sorted شرح"
+                }
+            ]
+        }
+    ]
+}
