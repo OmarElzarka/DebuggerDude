@@ -41,7 +41,7 @@ export function CommunitySection() {
             viewport={{ once: true }}
             className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6"
           >
-            We helped engineers <span className="text-primary">from:</span>
+            A Growing Engineering <span className="text-primary">Community</span>
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -50,7 +50,7 @@ export function CommunitySection() {
             transition={{ delay: 0.1 }}
             className="text-muted-foreground text-lg md:text-xl leading-relaxed"
           >
-            Debugger Dude is followed by software engineers across the Arab world and beyond. We are united by a shared passion for mastering technology and building the future.
+            Debugger Dude is followed by software engineers across Egypt, Jordan, Tunisia, and Saudi Arabia. Together, we're building a community focused on programming, problem solving, and software engineering.
           </motion.p>
         </div>
 
