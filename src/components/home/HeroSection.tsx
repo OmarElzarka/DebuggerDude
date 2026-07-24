@@ -83,19 +83,9 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-          className="text-2xl md:text-4xl font-semibold text-foreground max-w-4xl mx-auto mb-8 leading-tight tracking-tight"
+          className="text-2xl md:text-4xl font-semibold text-foreground max-w-4xl mx-auto mb-12 leading-tight tracking-tight"
         >
           Master algorithms and system design through beautiful visual explanations, not mindless memorization.
-        </motion.p>
-        
-        {/* Supporting paragraph */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-          className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-14 leading-relaxed font-medium"
-        >
-          We translate complex abstract engineering concepts into concrete, intuitive mental models. Join thousands of software engineers building stronger problem-solving skills for real-world careers.
         </motion.p>
 
         {/* CTAs */}

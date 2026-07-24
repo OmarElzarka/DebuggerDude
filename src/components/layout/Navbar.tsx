@@ -50,7 +50,16 @@ export function Navbar() {
         }}
         transition={{ duration: 0.3 }}
       >
-        <Link href="/" className="flex items-center space-x-1 group">
+        <Link 
+          href="/" 
+          className="flex items-center space-x-1 group"
+          onClick={(e) => {
+            if (pathname === "/") {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+          }}
+        >
           <span className="font-bold text-xl tracking-tight text-white transition-colors">
             Debugger
           </span>
@@ -61,7 +70,6 @@ export function Navbar() {
             {`</>`}
           </span>
         </Link>
-
         {/* Desktop Links */}
         <div className="hidden md:flex items-center space-x-8">
           <div className="flex space-x-6">
@@ -69,6 +77,12 @@ export function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
+                onClick={(e) => {
+                  if (link.href === "/" && pathname === "/") {
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: "smooth" });
+                  }
+                }}
                 className={`text-sm font-medium transition-colors hover:text-primary ${
                   pathname === link.href ? "text-primary" : "text-muted-foreground"
                 }`}
@@ -117,6 +131,13 @@ export function Navbar() {
                 <Link
                   key={link.name}
                   href={link.href}
+                  onClick={(e) => {
+                    if (link.href === "/" && pathname === "/") {
+                      e.preventDefault();
+                      setIsMobileMenuOpen(false);
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }
+                  }}
                   className={`text-lg font-medium transition-colors ${
                     pathname === link.href ? "text-primary" : "text-foreground"
                   }`}
