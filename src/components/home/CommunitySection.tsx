@@ -4,9 +4,10 @@ import { motion } from "framer-motion";
 import { Globe2 } from "lucide-react";
 
 const countries = [
-  "Egypt", "Saudi Arabia", "Morocco", "Algeria", 
-  "UAE", "Jordan", "Iraq", "Tunisia", 
-  "United States", "Germany", "United Kingdom", "Canada"
+  "Egypt 🇪🇬", 
+  "Jordan 🇯🇴", 
+  "Tunisia 🇹🇳", 
+  "Saudi Arabia 🇸🇦"
 ];
 
 export function CommunitySection() {

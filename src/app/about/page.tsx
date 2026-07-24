@@ -62,25 +62,32 @@ export default function AboutPage() {
           <div className="order-2 md:order-1 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Behind the Screen</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Debugger Dude was created by Omar, a software engineer with a deep passion for education and technical excellence. Frustrated by the lack of clear, visual resources while studying advanced topics, he started animating algorithms on YouTube to help others crack technical interviews and build better software.
+              Debugger Dude was created by Omar Osama Elzarka, a software engineer with a deep passion for education and technical excellence. Frustrated by the lack of clear, visual resources while studying advanced topics, he started animating algorithms on YouTube to help others crack technical interviews and build better software.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
               What began as a single channel has grown into a platform dedicated to helping thousands of engineers worldwide elevate their craft through intuitive learning.
             </p>
             
-            <div className="flex space-x-4 pt-6">
-              <Link href={siteConfig.links.youtube} target="_blank" className="p-3 bg-card border border-border/50 rounded-full hover:bg-primary/20 hover:text-primary hover:border-primary/50 transition-all duration-300">
-                <FaYoutube className="w-6 h-6" />
-              </Link>
-              <Link href={siteConfig.links.github} target="_blank" className="p-3 bg-card border border-border/50 rounded-full hover:bg-primary/20 hover:text-primary hover:border-primary/50 transition-all duration-300">
-                <FaGithub className="w-6 h-6" />
-              </Link>
-              <Link href={siteConfig.links.linkedin} target="_blank" className="p-3 bg-card border border-border/50 rounded-full hover:bg-primary/20 hover:text-primary hover:border-primary/50 transition-all duration-300">
-                <FaLinkedin className="w-6 h-6" />
-              </Link>
-              <Link href={`mailto:${siteConfig.links.email}`} className="p-3 bg-card border border-border/50 rounded-full hover:bg-primary/20 hover:text-primary hover:border-primary/50 transition-all duration-300">
-                <Mail className="w-6 h-6" />
-              </Link>
+            <div className="pt-6 space-y-4">
+              <h3 className="text-xl font-bold mb-4">Connect with Omar</h3>
+              <div className="flex flex-wrap gap-4">
+                <Link href={siteConfig.links.linkedin} target="_blank" className="flex items-center space-x-3 p-3 px-5 bg-card border border-border/50 rounded-full hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300">
+                  <FaLinkedin className="w-5 h-5 text-blue-500" />
+                  <span className="font-semibold text-sm">LinkedIn</span>
+                </Link>
+                <Link href={siteConfig.links.portfolio} target="_blank" className="flex items-center space-x-3 p-3 px-5 bg-card border border-border/50 rounded-full hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300">
+                  <span className="w-5 h-5 flex items-center justify-center font-bold text-lg">🌐</span>
+                  <span className="font-semibold text-sm">Portfolio</span>
+                </Link>
+                <Link href={siteConfig.links.github} target="_blank" className="flex items-center space-x-3 p-3 px-5 bg-card border border-border/50 rounded-full hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300">
+                  <FaGithub className="w-5 h-5" />
+                  <span className="font-semibold text-sm">GitHub</span>
+                </Link>
+                <Link href={`tel:${siteConfig.links.phone}`} className="flex items-center space-x-3 p-3 px-5 bg-card border border-border/50 rounded-full hover:bg-primary/10 hover:text-primary hover:border-primary/50 transition-all duration-300">
+                  <span className="w-5 h-5 flex items-center justify-center font-bold text-lg">📞</span>
+                  <span className="font-semibold text-sm">{siteConfig.links.phone}</span>
+                </Link>
+              </div>
             </div>
           </div>
           

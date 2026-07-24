@@ -4,10 +4,12 @@ export const siteConfig = {
   url: "https://debuggerdude.com",
   links: {
     youtube: "https://youtube.com/@debuggerdude",
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/OmarElzarka",
+    linkedin: "https://www.linkedin.com/in/omar-elzarka-168862281/",
     twitter: "https://twitter.com",
     email: "contact@debuggerdude.com",
+    portfolio: "https://omarelzarka.com/",
+    phone: "+20 102 975 5647",
   },
 };
 

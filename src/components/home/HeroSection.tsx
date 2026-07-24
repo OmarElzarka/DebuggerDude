@@ -17,7 +17,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-[95vh] flex flex-col items-center justify-center overflow-hidden pt-32 pb-24 border-b border-border/20">
+    <section className="relative min-h-[95vh] flex flex-col items-center justify-center overflow-hidden pt-16 pb-24 border-b border-border/20">
       {/* Background Visuals */}
       <div className="absolute inset-0 z-0 bg-background pointer-events-none">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:32px_32px]"></div>
@@ -52,7 +52,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="inline-flex items-center space-x-2 bg-muted/30 rounded-full px-5 py-2 mb-12 border border-border/40 backdrop-blur-md shadow-lg"
+          className="inline-flex items-center space-x-2 bg-muted/30 rounded-full px-5 py-2 mb-10 border border-border/40 backdrop-blur-md shadow-lg"
         >
           <span className="flex h-2.5 w-2.5 rounded-full bg-primary animate-pulse shadow-[0_0_12px_rgba(16,185,129,0.8)]"></span>
           <span className="text-sm font-semibold text-muted-foreground uppercase tracking-widest">Building Real Engineering Intuition</span>
@@ -65,14 +65,14 @@ export function HeroSection() {
           transition={{ duration: 1, delay: 0.1, ease: "easeOut" }}
           className="flex flex-col items-center mb-10 select-none"
         >
-          <span className="font-extrabold text-7xl md:text-[110px] tracking-tighter text-white drop-shadow-md leading-none mb-2">
+          <span className="font-extrabold text-7xl md:text-[110px] tracking-tighter text-white drop-shadow-md leading-none mb-1">
             Debugger
           </span>
-          <div className="flex items-center justify-center space-x-4 md:space-x-8">
-            <span className="font-black text-7xl md:text-[110px] tracking-tighter text-primary drop-shadow-[0_0_25px_rgba(16,185,129,0.4)] leading-none">
+          <div className="flex items-center justify-center space-x-4 md:space-x-6">
+            <span className="font-black text-6xl md:text-[80px] tracking-tighter text-primary drop-shadow-[0_0_25px_rgba(16,185,129,0.4)] leading-none">
               DUDE
             </span>
-            <span className="font-black text-6xl md:text-[90px] tracking-tighter text-primary drop-shadow-[0_0_25px_rgba(16,185,129,0.4)] leading-none opacity-80">
+            <span className="font-black text-5xl md:text-[70px] tracking-tighter text-primary drop-shadow-[0_0_25px_rgba(16,185,129,0.4)] leading-none opacity-80">
               {`</>`}
             </span>
           </div>

@@ -48,10 +48,9 @@ function Counter({ from, to, duration = 2, suffix = "", prefix = "" }: CounterPr
 }
 
 const stats = [
-  { label: "Software Engineers Helped", value: 100, suffix: "k+" },
+  { label: "Software Engineers Helped", value: 100, suffix: "+" },
   { label: "Hours of Content", value: 30, suffix: "+" },
   { label: "Video Views", value: 2000, suffix: "k+" },
-  { label: "Learning Sessions", value: 500, suffix: "k+" },
 ];
 
 export function StatsSection() {
@@ -80,7 +79,7 @@ export function StatsSection() {
           </motion.p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           {stats.map((stat, idx) => (
             <motion.div
               key={idx}
