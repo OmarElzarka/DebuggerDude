@@ -1,6 +1,9 @@
 import { getPlaylists } from "@/lib/youtube";
 import { VideoCard } from "@/components/video/VideoCard";
-import { PlaySquare } from "lucide-react";
+import { PlaySquare, Clock, Terminal, ChevronRight } from "lucide-react";
+import Link from "next/link";
+import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 export const metadata = {
   title: "Learn | Debugger Dude",
@@ -25,47 +28,69 @@ export default function LearnPage() {
 
         {/* Dynamic Sections based on Playlists */}
         <div className="space-y-24">
-          {playlists.map((playlist) => (
-            <section key={playlist.playlistId} className="relative">
-              {/* Section Header */}
-              <div className="flex flex-col md:flex-row gap-8 items-start md:items-center mb-10 p-6 md:p-8 bg-card border border-border/50 rounded-3xl shadow-lg relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-[80px] pointer-events-none"></div>
-                
-                {playlist.thumbnail && (
-                  <div className="relative w-full md:w-64 aspect-video rounded-2xl overflow-hidden shrink-0 border border-border">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img 
-                      src={playlist.thumbnail} 
-                      alt={playlist.title}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                )}
-                
-                <div className="relative z-10 space-y-4 flex-grow">
-                  <div className="flex items-center space-x-3 mb-2">
-                    <span className="bg-primary/10 text-primary border border-primary/20 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider flex items-center">
-                      <PlaySquare className="w-3 h-3 mr-1.5" />
-                      {playlist.videoCount} Videos
-                    </span>
-                  </div>
-                  <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-                    {playlist.title}
-                  </h2>
-                  <p className="text-muted-foreground text-lg max-w-3xl leading-relaxed">
-                    {playlist.description || `Explore our comprehensive collection of videos covering ${playlist.title}. Watch step-by-step visual explanations to deeply understand the core mechanics.`}
-                  </p>
-                </div>
-              </div>
+          {playlists.map((playlist) => {
+            // Calculate a mock estimated duration (assume ~15 mins per video)
+            const estimatedDuration = playlist.videoCount * 15;
+            const hours = Math.floor(estimatedDuration / 60);
+            const mins = estimatedDuration % 60;
+            const durationString = hours > 0 ? `${hours}h ${mins}m` : `${mins}m`;
 
-              {/* Videos Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-2">
-                {playlist.videos.map((video) => (
-                  <VideoCard key={video.videoId} video={video} />
-                ))}
-              </div>
-            </section>
-          ))}
+            return (
+              <section key={playlist.playlistId} className="relative">
+                {/* Redesigned Minimal Feature Card Header */}
+                <div className="flex flex-col md:flex-row gap-8 items-start mb-10 p-8 md:p-10 bg-card border border-border/50 rounded-3xl shadow-sm relative overflow-hidden group hover:border-primary/40 transition-colors">
+                  {/* Subtle Gradient Glow */}
+                  <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-[80px] pointer-events-none group-hover:bg-primary/10 transition-colors duration-500"></div>
+                  
+                  {/* Programming Icon instead of Thumbnail */}
+                  <div className="w-16 h-16 rounded-2xl bg-muted border border-border flex items-center justify-center shrink-0 group-hover:bg-primary/10 group-hover:border-primary/30 transition-all duration-300">
+                    <Terminal className="w-8 h-8 text-muted-foreground group-hover:text-primary transition-colors" />
+                  </div>
+                  
+                  <div className="relative z-10 space-y-5 flex-grow">
+                    {/* Metadata Badges */}
+                    <div className="flex flex-wrap items-center gap-3">
+                      <span className="bg-primary/10 text-primary border border-primary/20 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider flex items-center">
+                        <PlaySquare className="w-3.5 h-3.5 mr-1.5" />
+                        {playlist.videoCount} Videos
+                      </span>
+                      <span className="bg-muted text-muted-foreground border border-border/50 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider flex items-center">
+                        <Clock className="w-3.5 h-3.5 mr-1.5" />
+                        {durationString}
+                      </span>
+                      <span className="bg-emerald-500/10 text-emerald-500 border border-emerald-500/20 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">
+                        Comprehensive Guide
+                      </span>
+                    </div>
+                    
+                    <div>
+                      <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
+                        {playlist.title}
+                      </h2>
+                      <p className="text-muted-foreground text-lg max-w-3xl leading-relaxed">
+                        {playlist.description || `Explore our comprehensive collection of videos covering ${playlist.title}. Watch step-by-step visual explanations to deeply understand the core mechanics.`}
+                      </p>
+                    </div>
+
+                    <Link 
+                      href={`/watch/${playlist.videos[0]?.videoId}`} 
+                      className={cn(buttonVariants({ variant: "default" }), "mt-4 h-12 px-6 rounded-xl font-semibold bg-foreground text-background hover:bg-primary hover:text-white transition-all")}
+                    >
+                      Explore Playlist
+                      <ChevronRight className="ml-2 w-4 h-4" />
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Individual Video Cards (Thumbnails Retained) */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 px-2">
+                  {playlist.videos.map((video) => (
+                    <VideoCard key={video.videoId} video={video} />
+                  ))}
+                </div>
+              </section>
+            );
+          })}
         </div>
 
         {playlists.length === 0 && (
